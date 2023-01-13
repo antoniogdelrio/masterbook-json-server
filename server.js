@@ -1,10 +1,10 @@
 // See https://github.com/typicode/json-server#module
 const jsonServer = require('json-server')
 const server = jsonServer.create()
-const router = jsonServer.router('db.json', {
+const router = jsonServer.router('db.json')
+const middlewares = jsonServer.defaults({
     readOnly: true
 })
-const middlewares = jsonServer.defaults()
 
 server.use(middlewares)
 // Add this before server.use(router)
