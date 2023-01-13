@@ -1,9 +1,104 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Temaki",
+      "image": "temaki.jpg",
+      "time": 123,
+      "difficulty": "Medium",
+      "serve": 5,
+      "ingredients": [
+        {
+          "description": "Alga",
+          "quantity": 5,
+          "unit": "units"
+        },
+        {
+          "description": "Salmão",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "description": "Cream Cheese",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "description": "Cebolinha",
+          "quantity": 50,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Morbi blandit nulla a iaculis pulvinar.",
+        "Nam et nulla vitae augue volutpat mollis.",
+        "Aenean efficitur leo eu magna aliquam, vel porttitor arcu pulvinar.",
+        "Duis non velit molestie, vestibulum erat vitae, maximus lectus."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Frango Assado",
+      "image": "frango-assado.webp",
+      "time": 60,
+      "difficulty": "Easy",
+      "serve": 3,
+      "ingredients": [
+        {
+          "description": "Frango",
+          "quantity": 1,
+          "unit": "kg"
+        },
+        {
+          "description": "Manteiga",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "description": "Sal",
+          "quantity": 100,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Donec mollis odio vitae fringilla interdum.",
+        "Nunc eu lacus finibus lectus dignissim pretium.",
+        "Quisque placerat augue quis nunc aliquam dapibus.",
+        "Maecenas faucibus turpis quis libero varius tristique.",
+        "In vel augue non turpis lacinia porttitor id a lorem."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bolo de Chocolate",
+      "image": "bolo-de-chocolate.jpg",
+      "time": 60,
+      "difficulty": "Easy",
+      "serve": 3,
+      "ingredients": [
+        {
+          "description": "Chocolate em pó",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "description": "Ovos",
+          "quantity": 3,
+          "unit": "units"
+        },
+        {
+          "description": "Trigo",
+          "quantity": 1200,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Maecenas maximus sapien euismod risus ultrices, a interdum ex posuere.",
+        "Nulla eleifend quam vitae nibh egestas viverra.",
+        "Etiam ultrices sapien porttitor mi rhoncus fermentum.",
+        "Praesent sed arcu sed ex pharetra volutpat nec eget eros."
+      ]
+    }
+  ]
 }
